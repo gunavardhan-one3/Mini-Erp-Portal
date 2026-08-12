@@ -1,0 +1,39 @@
+.challan-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-danger {
+  padding: 9px 16px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid #f0b4ac;
+  background: #fff;
+  color: #c0392b;
+}
+
+.btn-danger:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.action-error-box {
+  background: #fdecea;
+  border: 1px solid #f0b4ac;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 20px;
+}
+
+.action-error-box .form-error {
+  margin: 0 0 6px;
+}
+
+.insufficient-list {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+  color: #7a2418;
+}

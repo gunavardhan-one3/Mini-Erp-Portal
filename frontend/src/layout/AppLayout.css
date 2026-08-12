@@ -1,0 +1,80 @@
+.app-shell {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f5f7;
+}
+
+.sidebar {
+  width: 220px;
+  background: #1c2333;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 16px 0;
+}
+
+.sidebar-brand {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0 20px 20px;
+}
+
+.sidebar-link {
+  display: block;
+  padding: 10px 20px;
+  color: #b7bccb;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sidebar-link:hover {
+  background: #262e42;
+  color: #fff;
+}
+
+.sidebar-link.active {
+  background: #2f5fd8;
+  color: #fff;
+}
+
+.main-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.topbar {
+  height: 56px;
+  background: #fff;
+  border-bottom: 1px solid #e4e6eb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.topbar-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+}
+
+.topbar-role {
+  color: #888;
+}
+
+.topbar-user button {
+  border: 1px solid #d0d3d9;
+  background: #fff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.content {
+  padding: 24px;
+  flex: 1;
+}

@@ -1,0 +1,22 @@
+.challan-status-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.challan-status-draft {
+  background: #eef1fb;
+  color: #3a4ba0;
+}
+
+.challan-status-confirmed {
+  background: #e4f6ea;
+  color: #1c8a45;
+}
+
+.challan-status-cancelled {
+  background: #f0f1f4;
+  color: #888;
+}
